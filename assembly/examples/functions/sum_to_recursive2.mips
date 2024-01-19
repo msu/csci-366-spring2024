@@ -1,0 +1,34 @@
+.text
+
+main:
+  li $a0, 100
+  jal sum_to
+
+  move $a0, $v0 # save the value
+  li $v0, 1 # print int
+  syscall
+
+  li $v0, 10  # exit
+  syscall
+  
+sum_to:
+  subi $sp, $sp, 8 # bump the stack pointer (down)
+
+  move $t0, $a0    # store the current arg in a temporary register
+  blez $a0, done   # if a is leq 0, return
+
+  subi $a0, $a0, 1 # otherwise, sub 1
+  
+  sw $t0, 4($sp)   # save the current temp value on the stack
+  sw $ra, 0($sp)   # save the current return address on the stack
+
+  jal sum_to       # recursive call
+  
+  lw $t0, 4($sp)   # restore the temporary value
+  lw $ra, 0($sp)   # restore the return address
+  
+  add $t0, $t0, $v0  # add the returned value and the temporary value
+done:
+  move $v0, $t0      # move the temporary value into the return register
+  addi $sp, $sp, 8   # bump the stack pointer up, giving up the function call's memory
+  jr $ra             # jump to the return address

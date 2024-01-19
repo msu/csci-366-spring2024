@@ -1,0 +1,11 @@
+get
+count_down()
+
+def count_down()
+  .
+  dup
+  zero? else
+    1 -
+    count_down()
+  end
+end

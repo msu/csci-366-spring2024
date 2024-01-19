@@ -1,0 +1,24 @@
+get
+fib()
+.
+
+def fib()
+
+  dup
+  zero?
+    return
+  end
+
+  dup 1 -
+  zero?
+    return
+  end
+
+  dup 2 -
+  fib()
+
+  swap 1 -
+  fib()
+
+  +
+end
