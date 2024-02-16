@@ -61,24 +61,24 @@ http://buthowdoitknow.com/
 
 ## 366 Spring Class Schedule
 
-| Week         | Mon                              | Wed                    | Fri                             | Due                         |
-|--------------|----------------------------------|------------------------|---------------------------------|-----------------------------|
-| Week 1       | ***                              | Class Introduction     | Github Setup                    |                             |
-| Week 2       | Transistors                      | Storing & Adding Bits  | Binary Representations          | **Github Repo Due**         |
-| Week 3       | Introduction To The CPU          | Scott CPU 1            | Quiz 1: No In Person Class      |                             |
-| Week 4       | Scott CPU 2                      | Memory Access          | Instruction Walk Through        |                             |
-| Week 5       | Introduction To Assembly         | LMC Assembly           | Quiz 2: No In Person Class      |                             |
-| Week 6       | MIPS Assembly                    | Function Calls In MIPS | Recursive Function Calls        | **Assembly Assignment Due** |
-| Week 7       | LMSM Project Introduction        | Function Calls In LMSM | Quiz 3: No In Person Class      |                             |
-| Week 8       | Compilers                        | Project Help Session 1 | The Stack, Heap & Pointers in C |                             |
-| Spring Break | ***                              | ***                    | ***                             |                             |
-| Week 9       | C Deep Dive                      | Strings & Structs      | Quiz 4: No In Person Class      |                             |
-| Week 10      | Finishing Up C                   | Operating Systems      | No Class (University Day)       | **Emulator Checkpoint Due** |
-| Week 11      | Introduction to The JVM          | Concurrency 1          | Quiz 5: No In Person Class      |                             |
-| Week 12      | Concurrency 2                    | Project Help Session 2 | Networking                      | **C Homework Due**          |
-| Week 13      | The Web: HTTP, HTML & Hypermedia | Cloud Computing        | Quiz 6: No In Person Class      |                             |
-| Week 14      | Databases                        | Redis                  | Performance Optimization        |                             |
-| Week 15      | Floating Point Numbers           | Final Review           | No Quiz: Help in 255 Barnard    | **Assembler Due**           |
-| Finals Week  |                                  |                        |                                 |                             |
+| Week         | Mon                              | Wed                       | Fri                             | Due                         |
+|--------------|----------------------------------|---------------------------|---------------------------------|-----------------------------|
+| Week 1       | ***                              | Class Introduction        | Github Setup                    |                             |
+| Week 2       | Transistors                      | Storing & Adding Bits     | Binary Representations          | **Github Repo Due**         |
+| Week 3       | Introduction To The CPU          | Scott CPU 1               | Quiz 1: No In Person Class      |                             |
+| Week 4       | Scott CPU 2                      | Memory Access             | Instruction Walk Through        |                             |
+| Week 5       | Introduction To Assembly         | LMC Assembly              | Quiz 2: No In Person Class      |                             |
+| Week 6       | No Class(Presidents Day)         | MIPS Assembly             | Function Calls In MIPS          |                             |
+| Week 7       | Recursive Function Calls         | LMSM Project Introduction | Quiz 3: No In Person Class      | **Assembly Assignment Due** |
+| Week 8       | Compilers                        | Project Help Session 1    | The Stack, Heap & Pointers in C |                             |
+| Spring Break | ***                              | ***                       | ***                             |                             |
+| Week 9       | C Deep Dive                      | Strings & Structs         | Quiz 4: No In Person Class      |                             |
+| Week 10      | Finishing Up C                   | Operating Systems         | No Class (University Day)       | **Emulator Checkpoint Due** |
+| Week 11      | Introduction to The JVM          | Concurrency 1             | Quiz 5: No In Person Class      |                             |
+| Week 12      | Concurrency 2                    | Project Help Session 2    | Networking                      | **C Homework Due**          |
+| Week 13      | The Web: HTTP, HTML & Hypermedia | Cloud Computing           | Quiz 6: No In Person Class      |                             |
+| Week 14      | Databases                        | Redis                     | Performance Optimization        |                             |
+| Week 15      | Floating Point Numbers           | Final Review              | No Quiz: Help in 255 Barnard    | **Assembler Due**           |
+| Finals Week  |                                  |                           |                                 |                             |
 
 
